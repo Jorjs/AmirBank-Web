@@ -22,16 +22,14 @@ export const Slider = () => {
       </div>
       </Carousel.Item>
       <Carousel.Item>
-      <div className="slider_container">
-      <img src={img2} alt="Second slide"/>
-      </div>
+        <div className="slider_container">
+        <img src={img2} alt="Second slide"/>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100 slider-img"
-          src={img2}
-          alt="Third slide"
-        />
+        <div className="slider_container">
+        <img src={img3} alt="Second slide"/>
+        </div>
       </Carousel.Item>
     </Carousel>
   );
